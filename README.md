@@ -1,38 +1,56 @@
 # desert-corner
-My final project for CodeBrave's program. Recipe discovery app integrating using API fetch.
-This Projectis done by amal nassour
+====================
+A recipe discovery web app for dessert lovers.
+Search thousands of recipes by name or by ingredients — and save your favourites for later.
 
-o Project info:
-    -The Dessert Corner
-    -it is website that helps you to search for the dessert recipes and ingredients you want using APIS 
-    -you can also find a recipes using ingredients you have.
-    -you can save any recipes on a local storage to find it anytime.
-    -The website also suggests 3 different recipes you can check.
+Live Site: https://codebraver67-lgtm.github.io/amals-final-project/
+Made by   : Amal Nassour — 2024
 
-o Pages:  
-    -index.html — home page
-    -search.html — search page
-    -saved.html — saved recipes page
 
-o Technologies used:
-    -HTML, CSS, JavaScript
-    -Spoonacular API
-    -TheMealDB API
-    -Local Storage
+FEATURES
+--------
+- Search by Name       : Type a dessert name and get matching recipes instantly
+- Search by Ingredients: Enter ingredients you have and find what you can make
+- Today's Picks        : A fresh random selection of desserts on every visit
+- Recipe View          : Open any recipe to see full instructions and details
+- Save Favourites      : Save recipes to a personal list and access them anytime
 
-o Features:   
-    -Preloader on all pages
-    -Responsive navbar with active link detection
-    -How it works section
-    -Search by name and by ingredients using Spoonacular
-    -Save and remove recipes with local storage
-    -Today's picks using TheMealDB
-    -Toast notifications
-    -Footer
 
-o API info: 
-    -search by name (Spoonacular)
-    -search by ingredients (Spoonacular)
-    -Today's pick (TheMealDB)
-=> note: Spoonacular free tier is limited to 150 requests per day
+HOW IT WORKS
+------------
+1. Go to the Search page
+2. Pick a search method — by name or by ingredients
+3. Open a recipe to view the full instructions
+4. Save your favourites to find them again later
 
+
+APIs USED
+---------
+- Spoonacular API  : Recipe search by name and by ingredients
+- TheMealDB API    : Additional recipe data and meal details
+
+
+TECH STACK
+----------
+- HTML, CSS, JavaScript (no frameworks or external dependencies)
+- Fetch API with .then() for API calls
+- localStorage for saving favourite recipes
+- IntersectionObserver for scroll animations
+- Responsive design with a hamburger menu for mobile
+
+
+FILE STRUCTURE
+--------------
+index.html   -> Home page (hero, how-it-works, today's picks)
+search.html  -> Search page (by name or ingredients)
+saved.html   -> Saved / favourites page
+
+
+NOTES
+-----
+- Built as a final project for a web development course
+- Written in beginner-friendly, self-authored style with inline comments
+- No external CSS libraries or JavaScript frameworks used
+
+
+"Life is uncertain. Eat dessert first." 🍰
