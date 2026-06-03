@@ -1,6 +1,4 @@
 # desert-corner
-====================
-
 A recipe discovery web app for dessert lovers.
 Search thousands of recipes by name or by ingredients — and save your favourites for later.
 
