@@ -2,7 +2,7 @@
 A recipe discovery web app for dessert lovers.
 Search thousands of recipes by name or by ingredients — and save your favourites for later.
 
-Made by   : Amal Nassour — 2024
+Made by   : Amal Nassour — 2026
 
 
 FEATURES
